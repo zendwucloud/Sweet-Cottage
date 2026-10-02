@@ -13,7 +13,7 @@ const Skin = {
   "winFx": {
     "scale": 1.15,
     "brightness": 1.3,
-    "glow": "#dc5cff"
+    "glow": "#fe71d9"
   },
   "popFx": {
     "scale": 1.15,
@@ -34,25 +34,39 @@ const Skin = {
   "symbols": {
     "1": {
       "win": "pulse",
-      "sprite": {
-        "src": "s1_sprite.png",
-        "frames": 28,
-        "dur": 1,
-        "loop": true
-      },
+      "spriteStub": true,
       "z": 10,
-      "zActive": 150
+      "zActive": 150,
+      "spine": {
+        "skeleton": "symbol_s1.json",
+        "atlas": "symbol_s1.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5,
+        "plate": "temp.png"
+      }
     },
     "2": {
       "win": "pulse",
-      "sprite": {
-        "src": "s2_sprite.png",
-        "frames": 28,
-        "dur": 1,
-        "loop": true
-      },
+      "spriteStub": true,
       "z": 10,
-      "zActive": 150
+      "zActive": 150,
+      "spine": {
+        "skeleton": "symbol_s2.json",
+        "atlas": "symbol_s2.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5,
+        "plate": "temp.png"
+      }
     },
     "3": {
       "win": "pulse",
@@ -135,83 +149,113 @@ const Skin = {
     },
     "11": {
       "win": "pop",
-      "sprite": {
-        "src": "SCATTER_sprite.png",
-        "frames": 28,
-        "dur": 1.5,
-        "loop": true
-      },
+      "spriteStub": true,
       "widthScale": 1.15,
       "glow": {
         "color": "rgba(255, 215, 0, 0.8)",
         "blur": 10
       },
       "z": 200,
-      "zActive": 800
+      "zActive": 800,
+      "spine": {
+        "skeleton": "symbol_scatter.json",
+        "atlas": "symbol_scatter.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5
+      }
     },
     "20": {
       "win": "pop",
-      "sprite": {
-        "src": "eye_sprite.png",
-        "frames": 28,
-        "dur": 1.5,
-        "loop": true
-      },
+      "spriteStub": true,
       "widthScale": 1.25,
       "glow": {
         "color": "rgba(0, 110, 255, 0.9)",
         "blur": 8
       },
       "z": 180,
-      "zActive": 999
+      "zActive": 999,
+      "spine": {
+        "skeleton": "symbol_x2.json",
+        "atlas": "symbol_x2.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5
+      }
     },
     "21": {
       "win": "pop",
-      "sprite": {
-        "src": "eye_sprite.png",
-        "frames": 28,
-        "dur": 1.5,
-        "loop": true
-      },
+      "spriteStub": true,
       "widthScale": 1.25,
       "glow": {
         "color": "rgba(0, 110, 255, 0.9)",
         "blur": 8
       },
       "z": 180,
-      "zActive": 999
+      "zActive": 999,
+      "spine": {
+        "skeleton": "symbol_x10.json",
+        "atlas": "symbol_x10.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5
+      }
     },
     "22": {
       "win": "pop",
-      "sprite": {
-        "src": "eye_sprite.png",
-        "frames": 28,
-        "dur": 1.5,
-        "loop": true
-      },
+      "spriteStub": true,
       "widthScale": 1.25,
       "glow": {
         "color": "rgba(0, 110, 255, 0.9)",
         "blur": 8
       },
       "z": 180,
-      "zActive": 999
+      "zActive": 999,
+      "spine": {
+        "skeleton": "symbol_x25.json",
+        "atlas": "symbol_x25.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5
+      }
     },
     "23": {
       "win": "pop",
-      "sprite": {
-        "src": "eye_sprite.png",
-        "frames": 28,
-        "dur": 1.5,
-        "loop": true
-      },
+      "spriteStub": true,
       "widthScale": 1.25,
       "glow": {
         "color": "rgba(0, 110, 255, 0.9)",
         "blur": 8
       },
       "z": 180,
-      "zActive": 999
+      "zActive": 999,
+      "spine": {
+        "skeleton": "symbol_x100.json",
+        "atlas": "symbol_x100.atlas",
+        "pages": {
+          "symbol.png": "symbol.png"
+        },
+        "idle": "idle",
+        "win": "win",
+        "winLoop": false,
+        "scale": 1.5
+      }
     },
     "24": {
       "win": "pulse",
