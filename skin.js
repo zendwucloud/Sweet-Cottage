@@ -13,7 +13,7 @@ const Skin = {
   "winFx": {
     "scale": 1.15,
     "brightness": 1.3,
-    "glow": "#fe71d9"
+    "glow": "#ff5ce1"
   },
   "popFx": {
     "scale": 1.15,
@@ -165,8 +165,9 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
-        "scale": 1.5
+        "winLoop": true,
+        "scale": 1.5,
+        "plate": "temp.png"
       }
     },
     "20": {
@@ -187,8 +188,9 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
-        "scale": 1.5
+        "winLoop": true,
+        "scale": 1.5,
+        "plate": "temp.png"
       }
     },
     "21": {
@@ -209,8 +211,9 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
-        "scale": 1.5
+        "winLoop": true,
+        "scale": 1.5,
+        "plate": "temp.png"
       }
     },
     "22": {
@@ -231,8 +234,9 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
-        "scale": 1.5
+        "winLoop": true,
+        "scale": 1.5,
+        "plate": "temp.png"
       }
     },
     "23": {
@@ -253,8 +257,9 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
-        "scale": 1.5
+        "winLoop": true,
+        "scale": 1.5,
+        "plate": "temp.png"
       }
     },
     "24": {
