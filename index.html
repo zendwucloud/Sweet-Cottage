@@ -89,8 +89,8 @@
         .fire-effect { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 5; opacity: 0; transition: opacity 1s ease-in-out; box-shadow: inset 0 0 50px 20px rgba(0, 0, 0, 0); mix-blend-mode: screen; }
         .free-mode .fire-effect { opacity: 1; animation: lightningPulse 1.2s infinite alternate ease-in-out; }
         @keyframes lightningPulse { 
-            0% { box-shadow: inset 0 0 80px 20px rgba(236, 98, 254, 0.3); background-color: rgba(236, 98, 254, 0.05); } 
-            100% { box-shadow: inset 0 0 150px 60px rgba(236, 98, 254, 0.6); background-color: rgba(236, 98, 254, 0.15); } 
+            0% { box-shadow: inset 0 0 80px 20px rgba(255, 82, 223, 0.3); background-color: rgba(255, 82, 223, 0.05); } 
+            100% { box-shadow: inset 0 0 150px 60px rgba(255, 82, 223, 0.6); background-color: rgba(255, 82, 223, 0.15); } 
         }
 
         .ui-layer { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('UI.png'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; z-index: 1; pointer-events: none; }
@@ -137,7 +137,7 @@
         .sym-20 { background-image: url('x2.png'); } .sym-21 { background-image: url('x10.png'); } .sym-22 { background-image: url('x25.png'); } .sym-23 { background-image: url('x100.png'); }
         .sym-mul.active { background-image: url('eye_sprite.png') !important; background-size: 2800% 100% !important; z-index: 999 !important; animation: scatterRunFinal 1.5s steps(27) infinite, wildPop 0.8s ease-in-out infinite alternate !important; }
 
-        @keyframes winAction { 0% { transform: scale(1); filter: brightness(1); } 50% { transform: scale(1.15); filter: brightness(1.3) drop-shadow(0 0 10px #ff5ce1); } 100% { transform: scale(1); filter: brightness(1); } }
+        @keyframes winAction { 0% { transform: scale(1); filter: brightness(1); } 50% { transform: scale(1.15); filter: brightness(1.3) drop-shadow(0 0 10px #fc71fe); } 100% { transform: scale(1); filter: brightness(1); } }
         .anim-win { animation: winAction 1s ease-in-out infinite; z-index: 300 !important; transition: none !important; } 
         
        /* --- 高中賠率符號專屬中獎 Sprite 動畫 (統一 28 幀) --- */
@@ -173,7 +173,7 @@
         #ui-message-bar { position: absolute; bottom: 25.14%; left: 50%; transform: translateX(-50%); width: 92%; height: 6vh; display: none; align-items: center; justify-content: center; z-index: 600; overflow: hidden; }
         #msg-content { display: inline-block; white-space: nowrap; transition: transform 0.3s ease-out; padding: 0 10px; }
         .style-win { font-family: 'Arial Black', sans-serif; font-size: 3.5vh; color: #FFFF00; text-shadow: 2px 2px 0px #FF4500, 0 0 10px #FF8C00; letter-spacing: 1px; }
-        .style-promo { font-family: 'Arial', sans-serif !important; font-weight: bold !important; font-size: 2.8vh !important; color: #fea9fb !important; text-shadow: 2px 2px 0px #000 !important; }
+        .style-promo { font-family: 'Arial', sans-serif !important; font-weight: bold !important; font-size: 2.8vh !important; color: #fc86fe !important; text-shadow: 2px 2px 0px #000 !important; }
         .style-blue { font-family: 'Arial Black', sans-serif !important; font-size: 3.2vh !important; color: #00FFFF !important; text-shadow: 0 0 10px #0000FF, 2px 2px 0px #000080 !important; letter-spacing: 1px; }
         .style-error { font-family: 'Arial Black', sans-serif !important; font-size: 3.2vh !important; color: #ff4500 !important; text-shadow: 0 0 10px #ff0000, 2px 2px 0px #000 !important; letter-spacing: 2px; }
 

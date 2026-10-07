@@ -13,7 +13,7 @@ const Skin = {
   "winFx": {
     "scale": 1.15,
     "brightness": 1.3,
-    "glow": "#ff5ce1"
+    "glow": "#fc71fe"
   },
   "popFx": {
     "scale": 1.15,
@@ -45,7 +45,7 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
+        "winLoop": true,
         "scale": 1.5,
         "plate": "temp.png"
       }
@@ -63,7 +63,7 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
+        "winLoop": true,
         "scale": 1.5,
         "plate": "temp.png"
       }
@@ -81,7 +81,7 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
+        "winLoop": true,
         "scale": 1.5,
         "plate": "temp.png"
       }
@@ -99,7 +99,7 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
+        "winLoop": true,
         "scale": 1.5,
         "plate": "temp.png"
       }
@@ -117,7 +117,7 @@ const Skin = {
         },
         "idle": "idle",
         "win": "win",
-        "winLoop": false,
+        "winLoop": true,
         "scale": 1.5,
         "plate": "temp.png"
       }
@@ -166,7 +166,7 @@ const Skin = {
         "idle": "idle",
         "win": "win",
         "winLoop": true,
-        "scale": 1.5,
+        "scale": 1.15,
         "plate": "temp.png"
       }
     },
@@ -189,8 +189,7 @@ const Skin = {
         "idle": "idle",
         "win": "win",
         "winLoop": true,
-        "scale": 1.5,
-        "plate": "temp.png"
+        "scale": 1.5
       }
     },
     "21": {
@@ -212,8 +211,7 @@ const Skin = {
         "idle": "idle",
         "win": "win",
         "winLoop": true,
-        "scale": 1.5,
-        "plate": "temp.png"
+        "scale": 1.5
       }
     },
     "22": {
@@ -235,8 +233,7 @@ const Skin = {
         "idle": "idle",
         "win": "win",
         "winLoop": true,
-        "scale": 1.5,
-        "plate": "temp.png"
+        "scale": 1.5
       }
     },
     "23": {
@@ -258,8 +255,7 @@ const Skin = {
         "idle": "idle",
         "win": "win",
         "winLoop": true,
-        "scale": 1.5,
-        "plate": "temp.png"
+        "scale": 1.5
       }
     },
     "24": {

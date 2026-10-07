@@ -751,9 +751,16 @@ class SymbolView {
 
     // 爆破同樣不用濾鏡：放大 + 淡出 + 加亮疊圖，中後段換成預先模糊的那張圖。
     explode() {
-        if (this.def.spine) return Promise.resolve(); // 骨骼動畫的符號不會被消除爆破
         this.mode = 'explode'; this.frames = null;
         this.hideGlow();
+        if (this.def.spine) {
+            // 骨骼動畫沒有「預先模糊圖」可以換、也不套加亮疊圖（那是貼圖專屬技巧），
+            // 但放大 + 淡出是套在外層容器上，Spine 一樣吃得到，所以保留這兩個效果，只拿掉貼圖專屬的部分。
+            return this.slot.reels.tween(this.slot.T.explode, e => {
+                this.root.scale.set(1.1 + 0.9 * e);
+                this.root.alpha = 1 - e;
+            }, EASE.easeOut, aliveFn(this));
+        }
         const sharp = this.slot.tex(this.type), soft = this.slot.blurTex[this.type] || sharp;
         this.setTexture(sharp);
         let swapped = false;
